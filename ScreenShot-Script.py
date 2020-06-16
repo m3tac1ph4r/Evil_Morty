@@ -8,7 +8,7 @@ def aquatone(name):
 
 
 def eyewitness(name):
-    os.system('EyeWitness.py --prepe
+    os.system('EyeWitness.py --prepe'
 
 
 def ScreenShot():

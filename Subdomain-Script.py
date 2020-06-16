@@ -32,4 +32,3 @@ def amass():
     os.system('amass intel -active -df domains.txt -o '+ FILENAME)
 
 
-
