@@ -1,0 +1,126 @@
+google.com has address 172.217.167.238
+google.com has IPv6 address 2404:6800:4002:80f::200e
+google.com mail is handled by 50 alt4.aspmx.l.google.com.
+google.com mail is handled by 30 alt2.aspmx.l.google.com.
+google.com mail is handled by 40 alt3.aspmx.l.google.com.
+google.com mail is handled by 20 alt1.aspmx.l.google.com.
+google.com mail is handled by 10 aspmx.l.google.com.
+facebook.com has address 157.240.198.35
+facebook.com has IPv6 address 2a03:2880:f144:82:face:b00c:0:25de
+facebook.com mail is handled by 10 smtpin.vvv.facebook.com.
+instagram.com has address 52.23.94.118
+instagram.com has address 54.208.72.165
+instagram.com has address 3.210.57.193
+instagram.com has address 34.200.110.72
+instagram.com has address 3.223.7.100
+instagram.com has address 34.192.95.2
+instagram.com has address 3.234.67.196
+instagram.com has address 34.227.187.18
+instagram.com has IPv6 address 2406:da00:ff00::22c4:d108
+instagram.com has IPv6 address 2406:da00:ff00::3210:5bee
+instagram.com has IPv6 address 2406:da00:ff00::36af:24ce
+instagram.com has IPv6 address 2406:da00:ff00::22e9:1b30
+instagram.com has IPv6 address 2406:da00:ff00::3d6:8ad9
+instagram.com has IPv6 address 2406:da00:ff00::3402:961c
+instagram.com has IPv6 address 2406:da00:ff00::3456:e574
+instagram.com has IPv6 address 2406:da00:ff00::22c7:8eeb
+instagram.com mail is handled by 10 mxb-00082601.gslb.pphosted.com.
+instagram.com mail is handled by 10 mxa-00082601.gslb.pphosted.com.
+xvideos.com has address 185.88.181.10
+xvideos.com has address 185.88.181.11
+xvideos.com has address 185.88.181.2
+xvideos.com has address 185.88.181.3
+xvideos.com has address 185.88.181.4
+xvideos.com has address 185.88.181.5
+xvideos.com has address 185.88.181.6
+xvideos.com has address 185.88.181.7
+xvideos.com has address 185.88.181.8
+xvideos.com has address 185.88.181.9
+xvideos.com has IPv6 address 64:ff9b::b958:b509
+xvideos.com has IPv6 address 64:ff9b::b958:b50a
+xvideos.com has IPv6 address 64:ff9b::b958:b50b
+xvideos.com has IPv6 address 64:ff9b::b958:b502
+xvideos.com has IPv6 address 64:ff9b::b958:b503
+xvideos.com has IPv6 address 64:ff9b::b958:b504
+xvideos.com has IPv6 address 64:ff9b::b958:b505
+xvideos.com has IPv6 address 64:ff9b::b958:b506
+xvideos.com has IPv6 address 64:ff9b::b958:b507
+xvideos.com has IPv6 address 64:ff9b::b958:b508
+xvideos.com mail is handled by 5 alt2.aspmx.l.google.com.
+xvideos.com mail is handled by 10 aspmx2.googlemail.com.
+xvideos.com mail is handled by 10 aspmx3.googlemail.com.
+xvideos.com mail is handled by 10 aspmx4.googlemail.com.
+xvideos.com mail is handled by 10 aspmx5.googlemail.com.
+xvideos.com mail is handled by 1 aspmx.l.google.com.
+xvideos.com mail is handled by 5 alt1.aspmx.l.google.com.
+pornhub.com has address 66.254.114.41
+pornhub.com has IPv6 address 64:ff9b::42fe:7229
+pornhub.com mail is handled by 10 mxa-002a0701.gslb.pphosted.com.
+pornhub.com mail is handled by 10 mxb-002a0701.gslb.pphosted.com.
+upes.ac.in has address 3.90.54.195
+upes.ac.in has IPv6 address 64:ff9b::35a:36c3
+upes.ac.in mail is handled by 10 mx2.hc223-81.ap.iphmx.com.
+upes.ac.in mail is handled by 5 mx1.hc223-81.ap.iphmx.com.
+google.com has address 172.217.167.238
+google.com has IPv6 address 2404:6800:4002:80f::200e
+google.com mail is handled by 40 alt3.aspmx.l.google.com.
+google.com mail is handled by 20 alt1.aspmx.l.google.com.
+google.com mail is handled by 10 aspmx.l.google.com.
+google.com mail is handled by 50 alt4.aspmx.l.google.com.
+google.com mail is handled by 30 alt2.aspmx.l.google.com.
+facebook.com has address 157.240.198.35
+facebook.com has IPv6 address 2a03:2880:f144:82:face:b00c:0:25de
+facebook.com mail is handled by 10 smtpin.vvv.facebook.com.
+instagram.com has address 34.227.187.18
+instagram.com has address 3.234.67.196
+instagram.com has address 34.192.95.2
+instagram.com has address 3.223.7.100
+instagram.com has address 34.200.110.72
+instagram.com has address 3.210.57.193
+instagram.com has address 54.208.72.165
+instagram.com has address 52.23.94.118
+instagram.com has IPv6 address 2406:da00:ff00::22c7:8eeb
+instagram.com has IPv6 address 2406:da00:ff00::3456:e574
+instagram.com has IPv6 address 2406:da00:ff00::3402:961c
+instagram.com has IPv6 address 2406:da00:ff00::3d6:8ad9
+instagram.com has IPv6 address 2406:da00:ff00::22e9:1b30
+instagram.com has IPv6 address 2406:da00:ff00::36af:24ce
+instagram.com has IPv6 address 2406:da00:ff00::3210:5bee
+instagram.com has IPv6 address 2406:da00:ff00::22c4:d108
+instagram.com mail is handled by 10 mxb-00082601.gslb.pphosted.com.
+instagram.com mail is handled by 10 mxa-00082601.gslb.pphosted.com.
+xvideos.com has address 185.88.181.9
+xvideos.com has address 185.88.181.8
+xvideos.com has address 185.88.181.7
+xvideos.com has address 185.88.181.6
+xvideos.com has address 185.88.181.5
+xvideos.com has address 185.88.181.4
+xvideos.com has address 185.88.181.3
+xvideos.com has address 185.88.181.2
+xvideos.com has address 185.88.181.11
+xvideos.com has address 185.88.181.10
+xvideos.com has IPv6 address 64:ff9b::b958:b508
+xvideos.com has IPv6 address 64:ff9b::b958:b507
+xvideos.com has IPv6 address 64:ff9b::b958:b506
+xvideos.com has IPv6 address 64:ff9b::b958:b505
+xvideos.com has IPv6 address 64:ff9b::b958:b504
+xvideos.com has IPv6 address 64:ff9b::b958:b503
+xvideos.com has IPv6 address 64:ff9b::b958:b502
+xvideos.com has IPv6 address 64:ff9b::b958:b50b
+xvideos.com has IPv6 address 64:ff9b::b958:b50a
+xvideos.com has IPv6 address 64:ff9b::b958:b509
+xvideos.com mail is handled by 1 aspmx.l.google.com.
+xvideos.com mail is handled by 5 alt1.aspmx.l.google.com.
+xvideos.com mail is handled by 5 alt2.aspmx.l.google.com.
+xvideos.com mail is handled by 10 aspmx2.googlemail.com.
+xvideos.com mail is handled by 10 aspmx3.googlemail.com.
+xvideos.com mail is handled by 10 aspmx4.googlemail.com.
+xvideos.com mail is handled by 10 aspmx5.googlemail.com.
+pornhub.com has address 66.254.114.41
+pornhub.com has IPv6 address 64:ff9b::42fe:7229
+pornhub.com mail is handled by 10 mxa-002a0701.gslb.pphosted.com.
+pornhub.com mail is handled by 10 mxb-002a0701.gslb.pphosted.com.
+upes.ac.in has address 3.90.54.195
+upes.ac.in has IPv6 address 64:ff9b::35a:36c3
+upes.ac.in mail is handled by 10 mx2.hc223-81.ap.iphmx.com.
+upes.ac.in mail is handled by 5 mx1.hc223-81.ap.iphmx.com.
