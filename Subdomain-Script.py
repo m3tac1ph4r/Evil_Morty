@@ -11,7 +11,7 @@ import urllib
 
 # Find subdomains manually
 def websites(domain):
-    FILENAME = 'Website.txt'
+    FILENAME = 'SUBDOMAIN-MANUAL.txt'
     censys = f'https://censys.io/certificates?q={domain}'
     certsh = f"https://crt.sh/?q={domain}"
     with open(FILENAME , 'a+') as f:
@@ -23,22 +23,30 @@ def websites(domain):
         f.write('\n')
 
 
-# Find Subdomains from opensource and resolvers
 # Tested
 def subfinder():
     # Enter API Keys
-    FILENAME = 'Domains1.txt'
-    os.system('/opt/subfinder-linux-amd64 -dL domains.txt -nW -oI '+ FILENAME)
+    FILENAME = 'Subdomain-01.txt'
+    os.system('/opt/subfinder-linux-amd64 -dL target.txt -nW | tee '+ FILENAME)
 
-# Not Tested
+# Tested
 def amass():
-    FILENAME = 'Domains2.txt'
-    os.system('amass enum -active -df domains.txt -o '+ FILENAME)
+    FILENAME = 'Subdomain-02.txt'
+    os.system('amass enum -active -df target.txt | tee '+ FILENAME)
 
 
+def merge():
+    os.system('cat Subdomain-0* >> subdomaintemp.txt')
+    os.system('sort subdomaintemp.txt | uniq > SUBDOMAINS.txt')
 
 
-# Find Subdomains by bruteforceing
+def main():
+    print("Subdomains")
+    amass()
+    subfinder()
+    print("Done")
+    print("Merging")
+    merge()
 
-def bruteforce():
+main()
 
