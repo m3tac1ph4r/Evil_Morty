@@ -22,7 +22,6 @@ def websites(domain):
         f.write('-'*50)
         f.write('\n')
 
-
 # Tested
 def subfinder():
     # Enter API Keys
@@ -34,19 +33,37 @@ def amass():
     FILENAME = 'Subdomain-02.txt'
     os.system('amass enum -active -df target.txt | tee '+ FILENAME)
 
+def brute():
+    WORDLIST = ''
+    FILENAME = 'Subdomain-03.txt'
+    TARGET = 'target.txt'
+    f = open('target.txt')
+    for i in f.readline():
+        os.system(f'gobuster dns -d {i.strip()} -i -t 90 -v -w {WORDLIST} | tee {FILENAME}')
 
+def vhost():
+    WORDLIST = ''
+    FILENAME = 'Subdomain-04.txt'
+    TARGET = 'target.txt'
+    f = open('target.txt')
+    for i in f.readline():
+        os.system(f'gobuster vhost -u {i.strip()} -w {WORDLIST} | {FILENAME}')
+
+
+# Tested
 def merge():
     os.system('cat Subdomain-0* >> subdomaintemp.txt')
     os.system('sort subdomaintemp.txt | uniq > SUBDOMAINS.txt')
 
 
+# Tested
 def main():
     print("Subdomains")
     amass()
     subfinder()
-    print("Done")
+    brute() 
+    vhost()
     print("Merging")
     merge()
 
 main()
-
