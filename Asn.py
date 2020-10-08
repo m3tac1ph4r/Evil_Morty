@@ -3,10 +3,13 @@
 import os
 import requests
 import sys
+import argparse
 
 def asn(name):
-    filename = 'Data_ASN'
+    filename = 'ASN_Aquasitions'
     f = open(filename,'w+')
+    f.write('-' * 70)
+    f.write('\n')
     f.write(f'ASNs : {name.upper()}')
     f.write('\n')
     f.write("Whois: https://whois.arin.net/ui/query.do\n")
@@ -20,8 +23,8 @@ def asn(name):
 
 
 def aqu(name):
-    filename = 'Data_Aquasitions'
-    f = open(filename,'w+')
+    filename = 'ASN_Aquasitions'
+    f = open(filename,'a+')
     f.write(f"Aquasitions: {name.upper()}")
     f.write('\n')
     f.write(f"Wikipedia: https://en.wikipedia.org/wiki/{name}\n")
@@ -35,15 +38,22 @@ def aqu(name):
 
 
 def s1_main():
-    FILENAME = 'Name.txt'
-    f = open(FILENAME)
-    name = f.readline().strip()
-    print('-'*70)
-    print("Searching for "+ name.upper() )
-    print("Done")
-    print('-'*70)
-    asn(name)
-    aqu(name)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--name" , help="Name of organization")
+    args = parser.parse_args()
+    name = args.name
+    if not args.name:
+        parser.print_help()
+        sys.exit(1)
+    else:
+        print('-'*70)
+        print("Searching for "+ name.upper() )
+        print("Done")
+        print('-'*70)
+        asn(name)
+        aqu(name)
+    f = open("ASN_Aquasitions")
+    print(f.read())
     f.close()
 
 if __name__ == "__main__":
