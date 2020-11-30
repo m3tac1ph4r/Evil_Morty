@@ -17,7 +17,7 @@ def main():
 
 def masscan(filename):
     print("MASSCAN")
-    os.system(f"sudo masscan --rate=1000 -iL {filename} -Pn -p1-65535 -oL MASSCAN.txt")
+    os.system(f"sudo masscan --rate=10000 -iL {filename} -Pn -p1-65535 -oL MASSCAN.txt")
     print("DONE")
     portlist("MASSCAN.txt")
     print("-" * 42)
@@ -32,13 +32,13 @@ def nmap(filename, ports):
 def subtoip(filename):
     print("CONVERTING SUBDOMAINS TO IP")
     os.system("cat " + filename + " | while read line ; do host $line >> tempip ; done ")
-    os.system("cat tempip | grep -E '\\b([0-9]{1,3}\.){3}[0-9]{1,3}\\b' | sort -n -t ' ' -k 4 | awk '{print $NF}' | uniq > IPLIST.txt && rm -rf tempip")
+    os.system("cat tempip | grep -E '\\b([0-9]{1,3}\.){3}[0-9]{1,3}\\b' | sort -n -t ' ' -k 4 | awk '{print $NF}' |sort| uniq > IPLIST.txt && rm -rf tempip")
     print("DONE")
     print("-" * 42)
     return "IPLIST.txt"
 
 def portlist(filename):
-    os.system('cat ' + filename + " | awk '/open/ {print $3}' | uniq | tr '\\n' ',' | sed s/.$// > PORTS.txt")
+    os.system('cat ' + filename + " | awk '/open/ {print $3}' | sort | uniq | tr '\\n' ',' | sed s/.$// > PORTS.txt")
     return "PORTS.txt"
 
 
