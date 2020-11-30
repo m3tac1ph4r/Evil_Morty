@@ -42,7 +42,7 @@ def brute(target , wordlist):
     f = open(target)
     for i in f.readline():
         # Replace with ffuf
-        os.system(f'gobuster dns -d {i.strip()} -i -t 90 -v -w {WORDLIST} | tee {FILENAME}')
+        os.system(f'gobuster dns -d {i.strip()} -t 90  -w {WORDLIST} | tee {FILENAME}')
 
 def vhost(target , wordlist):
     WORDLIST = wordlist

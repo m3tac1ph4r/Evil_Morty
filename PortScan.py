@@ -32,7 +32,11 @@ def nmap(filename, ports):
 def subtoip(filename):
     print("CONVERTING SUBDOMAINS TO IP")
     os.system("cat " + filename + " | while read line ; do host $line >> tempip ; done ")
+<<<<<<< HEAD
     os.system("cat tempip | grep -E '\\b([0-9]{1,3}\.){3}[0-9]{1,3}\\b' | sort -n -t ' ' -k 4 | awk '{print $NF}' |sort| uniq > IPLIST.txt && rm -rf tempip")
+=======
+    os.system("cat tempip | grep -E '\\b([0-9]{1,3}\.){3}[0-9]{1,3}\\b' | sort -n -t ' ' -k 4 | awk '{print $NF}' |sort |  uniq > IPLIST.txt && rm -rf tempip")
+>>>>>>> 7c124bd8defc43d2bccd09daf8d6af6df44b24e0
     print("DONE")
     print("-" * 42)
     return "IPLIST.txt"
